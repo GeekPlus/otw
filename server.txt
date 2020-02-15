@@ -1,2 +1,1 @@
-vmess=sg.geekplus.org:443, method=aes-128-gcm, password=0f5b92a7-ef6b-45ac-91a2-fa90a75cf794, obfs=wss, obfs-uri=/ray, fast-open=false, udp-relay=false, tag=SG.AlibabaCloud
-vmess=us.geekplus.org:443, method=aes-128-gcm, password=0f5b92a7-ef6b-45ac-91a2-fa90a75cf794, obfs=wss, obfs-uri=/ray, fast-open=false, udp-relay=false, tag=US.BWG
+dm1lc3M6Ly9jMmN1WjJWbGEzQnNkWE11YjNKbk9qUTBNeXdnYldWMGFHOWtQV0ZsY3kweE1qZ3RaMk50TENCd1lYTnpkMjl5WkQwd1pqVmlPVEpoTnkxbFpqWmlMVFExWVdNdE9URmhNaTFtWVRrd1lUYzFZMlkzT1RRc0lHOWlabk05ZDNOekxDQnZZbVp6TFhWeWFUMHZjbUY1TENCbVlYTjBMVzl3Wlc0OVptRnNjMlVzSUhWa2NDMXlaV3hoZVQxbVlXeHpaU3dnZEdGblBWTkhMa0ZzYVdKaFltRkRiRzkxWkFvPQ==
