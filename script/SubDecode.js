@@ -9,7 +9,7 @@ t = Base64.decode(content0);
 if (t.length > 0){
     $done({ content: t });
   } else {
-    $notify("无有效内容")
+    $notify("无有效内容");
 }
 
 //比较完美的一款 base64 encode/decode 工具
