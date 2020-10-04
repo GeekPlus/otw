@@ -2,7 +2,7 @@
 #!desc=高级订阅管理工具
 
 [Script]
-Sub-Store = type=http-request,pattern=^https?:\/\/geekplus\.org\/sg,script-path=https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/sub-store.min.js,requires-body=true,timeout=120,max-size=131072
+Sub-Store = type=http-request,pattern=^http?:\/\/geekplus\.org\/sg,script-path=https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/sub-store.min.js,requires-body=true,timeout=120,max-size=131072
 
 [MITM]
 hostname=%APPEND% geekplus.org
