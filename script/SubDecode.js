@@ -1,5 +1,5 @@
 
-var content0 = $resource.body;
+var content0 = $response.body;
 
 const Base64 = new Base64Code();
 
