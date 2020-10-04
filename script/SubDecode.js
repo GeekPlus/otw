@@ -1,5 +1,5 @@
 
-var content0 = $resource.content;
+var content0 = $resource.body;
 
 const Base64 = new Base64Code();
 
@@ -7,7 +7,7 @@ t = Base64.decode(content0);
 
 
 if (t.length > 0){
-    $done({ content: t });
+    $done({ body: t });
   } else {
     $notify("无有效内容");
 }
