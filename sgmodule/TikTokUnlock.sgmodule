@@ -4,8 +4,8 @@
 
 [URL Rewrite]
 (?<=_region=)CN(?=&) JP 307
-(?<=&app_version=)17..(?=.?.?&) 5 307
-(?<=\?version_code=)17..(?=.?.?&) 5 307
+(?<=&app_version=)17..(?=.?.?&) 7 307
+(?<=\?version_code=)17..(?=.?.?&) 7 307
 
 [MITM]
 hostname = %APPEND% *.tiktokv.com, *.byteoversea.com, *.musical.ly, *.snssdk.com
