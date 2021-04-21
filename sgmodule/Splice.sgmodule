@@ -4,6 +4,7 @@
 [Script]
 http-response https:\/\/splice\.oracle\.\w+\.com\/devices\/me requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/GeekPlus/otw/master/script/Splice.js
 http-response https:\/\/splice\.oracle\.\w+\.com\/settings requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/GeekPlus/otw/master/script/Splice2.js
+http-response https:\/\/splice\.oracle\.\w+\.com\/v2\/users/\setup requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/GeekPlus/otw/master/script/Splice2.js
 
 [MITM]
 hostname = %APPEND% splice.oracle.*.com
