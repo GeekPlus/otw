@@ -1,7 +1,7 @@
 const url = $request.url;
 const res = url.match(/latlon=([0-9.]*),([0-9.]*)/);
-const latitude = res[1];
-const longitude = res[2];
+const latitude = res[2];
+const longitude = res[1];
 
 // write data
 if (typeof $prefs !== 'undefined') {
