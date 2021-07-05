@@ -1,0 +1,9 @@
+#!name=LocateCaiyun
+#!desc=Get Locate.
+
+
+[Script]
+http-request http:\/\/caiyunapp\.com script-path=https://raw.githubusercontent.com/GeekPlus/otw/master/script/locateCaiyun.js, require-body=false
+
+[MITM]
+hostname = %APPEND% caiyunapp.com
