@@ -27,6 +27,7 @@ if (typeof $request !== "undefined") {
             }
         );
         $.notify("跳转测试", "Subtitle", "点击跳转", {
+            "media-url": "https://avatars2.githubusercontent.com/u/21050064?s=460&u=40a74913dd0a3d00670d05148c3a08c787470021&v=4",
             "open-url": "http://www.bing.com",
         });
     }
