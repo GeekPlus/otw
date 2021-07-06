@@ -1,0 +1,9 @@
+#!name=LocateLink
+#!desc=Get Locate.
+
+
+[Script]
+http-request https:\/\/((weather-data\.apple)|(api.weather))\.com script-path=https://raw.githubusercontent.com/GeekPlus/otw/master/script/locateLink.js, require-body=false
+
+[MITM]
+hostname = %APPEND% weather-data.apple.com, api.weather.com
