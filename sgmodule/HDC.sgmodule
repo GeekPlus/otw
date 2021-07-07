@@ -1,0 +1,8 @@
+#!name=HDC
+#!desc=HDC Daily
+
+[Script]
+http-request ^https:\/\/hdchina\.org\/torrents\.php script-path=https://raw.githubusercontent.com/GeekPlus/otw/master/script/hdc.cookie.js
+
+[MITM]
+hostname = %APPEND% hdchina.org
