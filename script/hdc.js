@@ -7,14 +7,15 @@ function sign() {
     url: `https://hdchina.org`,
     headers: { Cookie: cookieVal }
   }
+  console.log(cookieVal)
   if (!cookieVal) {
     $notification.post("HDC", "", "未获取到cookie")
   } else {
     $httpClient.get(url, (error, response, data) => {
-      console.log(`${error}`)
-      if (error) {
+      if (error | response.statusCode != 200) {
         $notification.post("HDC", "", "访问出错")
-      } else {
+      }
+      else {
         let title = `${cookieName}`
         let subTitle = ``
         let detail = `网站访问已完成`
