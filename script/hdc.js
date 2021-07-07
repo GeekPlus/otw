@@ -11,6 +11,7 @@ function sign() {
     $notification.post("HDC", "", "未获取到cookie")
   } else {
     $httpClient.get(url, (error, response, data) => {
+      console.log(`${error})
       if (error) {
         $notification.post("HDC", "", "访问出错")
       } else {
