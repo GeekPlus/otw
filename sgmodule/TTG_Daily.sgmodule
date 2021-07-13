@@ -1,0 +1,5 @@
+#!name=TTG Daily
+#!desc=TTG Daily
+
+[Script]
+TTG_Daily.js = type=cron,cronexp=20 21 * * *,script-path=https://raw.githubusercontent.com/GeekPlus/otw/master/script/TTG_Daily.js

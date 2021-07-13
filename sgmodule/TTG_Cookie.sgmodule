@@ -1,0 +1,8 @@
+#!name=TTG Cookie
+#!desc=TTG Daily
+
+[Script]
+http-request ^https:\/\/totheglory\.im\/browse\.php\?c=M script-path=https://raw.githubusercontent.com/GeekPlus/otw/master/script/TTG_Daily.js
+
+[MITM]
+hostname = %APPEND% totheglory.im
