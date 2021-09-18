@@ -1,0 +1,5 @@
+#!name=Apple_Check
+#!desc=Apple订单更新查询
+
+[Script]
+Apple_Check.js = type=cron,cronexp=0 0/30 * * *,script-path=https://raw.githubusercontent.com/GeekPlus/otw/master/script/Apple_Check.js,script-update-interval=0
