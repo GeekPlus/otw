@@ -20,7 +20,7 @@ function check() {
       } else {
         const html = response.body;
         //const order_time = html.match(new RegExp(/<span aria-atomic="true" aria-live="polite" role="timer" class="rs-od-itemstatus">(\S*)<\/span>/))
-        const order_time = html.match(new RegExp(/"deliveryDate":"(.*?)"/))
+        const order_time = html.match(new RegExp(/"deliveryDate":"(.*?)"/))[0]
         $.log(order_time)
         if (order_time != '预计送达日期 2021/10/14 - 2021/10/21'){
           $.msg("Apple_Check", "送达日期更新", order_time)
