@@ -20,11 +20,11 @@ function check() {
       } else {
         const html = response.body;        
         const order_time = html.match(new RegExp(/"deliveryDate":"(.*?)"/))[1]
-        const order_desc = html.match(new RegExp(/<div class="rs-od-itemdesc-content ">(.*?)"<\/div>/))[0]
+        const order_status = html.match(new RegExp(/"currentStatus":"(.*?)"/))[1]
         var order_time_key = "order_time"
-        const order_desc_key = "order_desc"
+        const order_status_key = "order_status"
         $.log(order_time)
-        $.log(order_desc)
+        $.log(order_status)
         if ($.getdata(order_time_key)) {
           if (order_time != $.getdata(order_time_key)){
             $.msg("Apple_Check", "送达日期更新", order_time)
@@ -34,14 +34,14 @@ function check() {
           $.setdata(order_time,order_time_key)
           $.msg("Apple_Check", "首次录入时间", order_time)
         }
-        if ($.getdata(order_desc_key)) {
-          if (order_desc != $.getdata(order_desc_key)){
-            $.msg("Apple_Check", "订单详情更新", order_desc)
-            $.setdata(order_desc,order_desc_key)            
+        if ($.getdata(order_status_key)) {
+          if (order_status != $.getdata(order_status_key)){
+            $.msg("Apple_Check", "订单状态更新", order_status)
+            $.setdata(order_status,order_status_key)            
           }
         }else{
-          $.setdata(order_desc,order_desc_key)
-          $.msg("Apple_Check", "首次录入订单详情", order_desc)
+          $.setdata(order_status,order_status_key)
+          $.msg("Apple_Check", "首次录入订单状态", order_status)
         }        
       }
     }
