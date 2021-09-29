@@ -22,7 +22,7 @@ function check() {
         const order_time = html.match(new RegExp(/"deliveryDate":"(.*?)"/))[1]
         const order_status = html.match(new RegExp(/"currentStatus":"(.*?)"/))[1]
         var order_time_key = "order_time"
-        const order_status_key = "order_status"
+        var order_status_key = "order_status"
         $.log(order_time)
         $.log(order_status)
         if ($.getdata(order_time_key)) {
