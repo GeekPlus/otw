@@ -2,9 +2,9 @@
 var $ = new Env('');
 var date = new Date()
 
-check()
+Track()
 
-function check() {
+function Track() {
   $.get({
     url: 'https://secure2.www.apple.com.cn/shop/order/guest/W892478927/17d91aec71ae74a2c2b8851fdae1c7dd6c88dadc12475b340026bb81d7fe1fda7cec33b0041e33713028bffc32ea1b224616e11eff2ff7ba11fb51e3d81d20419437f22bb9866a5e601c7968b5a237d5?e=true',
     headers: {
