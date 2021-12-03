@@ -1,0 +1,8 @@
+#!name=Test Url
+#!desc=测试URL设置
+
+[General]
+# > Internet 测试 URL
+internet-test-url = http://www.bing.com
+# > 代理测速 URL
+proxy-test-url = http://www.gstatic.com/generate_204
