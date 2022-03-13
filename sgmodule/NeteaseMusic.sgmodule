@@ -3,6 +3,7 @@
 
 [Rule]
 # > NeteaseMusic
+USER-AGENT,NeteaseMusic*,NeteaseMusic
 DOMAIN-SUFFIX,music.163.com,NeteaseMusic
 DOMAIN-SUFFIX,music.126.net,NeteaseMusic
 DOMAIN,mam.netease.com,NeteaseMusic
