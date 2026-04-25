@@ -10,5 +10,5 @@ DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,claudemcpclient.com
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,cdn.usefathom.com
-DOMAIN-SUFFIX,datadog.pool.ntp.org
+# DOMAIN-SUFFIX,datadog.pool.ntp.org
 DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com
